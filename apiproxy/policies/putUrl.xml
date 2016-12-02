@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="putUrl" mapIdentifier="urlMapper">
+   <Scope>apiproxy</Scope>
+   <Put override="true">
+      <Key>
+         <Parameter ref="urlencoding.requesturl.hashed"/>
+      </Key>
+<!--   <Value ref="urlencoding.longurl.encoded"/> -->
+      <Value ref="request.queryparam.url"/>
+   </Put>
+</KeyValueMapOperations>

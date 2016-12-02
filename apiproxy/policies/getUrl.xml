@@ -1,0 +1,8 @@
+<KeyValueMapOperations name="getUrl" mapIdentifier="urlMapper">
+   <Scope>apiproxy</Scope>
+   <Get assignTo="urlencoding.shorturl" index='1'>
+      <Key>
+         <Parameter ref="urlencoding.requesturl.hashed"/> 
+      </Key>
+   </Get>
+</KeyValueMapOperations>
